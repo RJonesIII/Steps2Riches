@@ -13,8 +13,8 @@ export default function Index() {
     >
       <Text style = {{ color: "blue"}} >"Hello World" </Text>
       <Text style = {{color: "white"}}>  </Text>
-      <Link href="/(tabs)/shops">Open Shop Menu</Link>
-      <Link href="/(tabs)/settings">Open Settings Menu</Link>
+      <Link href="/(main)/shops">Open Shop Menu</Link>
+      <Link href="/(main)/settings">Open Settings Menu</Link>
     </View>
   );
 }
