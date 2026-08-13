@@ -1,10 +1,13 @@
 import { Stack, Tabs } from "expo-router";
 
 
-export default function RootLayout() {
+export default function TabLayout() {
   return (
-    <Tabs>
-
+    <Tabs
+      screenOptions={{
+        headerShown : true, // Puts the header at the top of the screen, with tab name
+      }}>
+      
       <Tabs.Screen 
         name="index" // Name is the local path
         options={{
