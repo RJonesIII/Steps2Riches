@@ -5,7 +5,7 @@ const Shops = () => {
     return (
         <View>
             <Text>Shop Menu</Text>
-            <Link href="/">Back to Home</Link>
+            {/* <Link href="/">Back to Home</Link> */}
         </View>
 
     )

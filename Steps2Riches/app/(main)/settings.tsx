@@ -5,7 +5,7 @@ const Settings = () => {
     return (
         <View>
             <Text>Settings Screen</Text>
-            <Link href="/">Back to Home</Link>
+            {/* <Link href="/">Back to Home</Link> */}
         </View>
     )
 }
